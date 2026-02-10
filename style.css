@@ -1,23 +1,19 @@
-/* Page styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f6f8;
+    background-color: #ccd4dc;
     text-align: center;
     padding: 30px;
 }
 
-/* Heading */
 h1 {
-    color: #2c3e50;
+    color: #4525f5;
 }
 
-/* Paragraph */
 p {
     font-size: 18px;
-    color: #333;
+    color: #1c0202;
 }
 
-/* Table styling */
 table {
     width: 70%;
     margin: 20px auto;
@@ -25,32 +21,32 @@ table {
     background-color: #ffffff;
 }
 
-/* Table cells */
 th, td {
     border: 1px solid #333;
     padding: 10px;
     text-align: center;
 }
 
-/* Table header */
 th {
     background-color: #3498db;
     color: white;
 }
 
-/* Alternate row color */
 tr:nth-child(even) {
     background-color: #eaf2f8;
 }
 
-/* Hover effect */
 tr:hover {
     background-color: #d6eaf8;
 }
 
-/* Output text */
 #output {
     margin-top: 20px;
     font-weight: bold;
     color: #27ae60;
+}
+img{
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
 }
